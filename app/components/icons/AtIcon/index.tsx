@@ -1,4 +1,4 @@
-import { useDeviceContext } from "@/app/context/store";
+import { useDeviceContext } from "@/app/context/DeviceContext";
 
 const AtIcon = () => {
     const { isMobile } = useDeviceContext();

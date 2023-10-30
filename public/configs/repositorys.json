@@ -1,5 +1,43 @@
 {
-    "repositorys": [
+    "en": [
+        {
+            "id": 1,
+            "title": "My",
+            "subtitle": "Portfolio",
+            "description": "As a Fullstack Developer, I am pleased to present my portfolio, which reflects my experience and skills in web development. With a passion for creating innovative and functional solutions, my portfolio demonstrates my knowledge in both frontend and backend development. On the frontend I create attractive and responsive user interfaces, ensuring an exceptional user experience. My focus is on creating intuitive, accessible and visually appealing designs. On the backend, I develop scalable APIs, ensuring applications are fast and reliable. My portfolio is an end-to-end project that demonstrates my web development skills and my commitment to creating high-quality solutions. I am proud to have created a portfolio that reflects my passion for web development and my dedication to creating innovative and functional solutions.",
+            "imageUrl": "https://cdn.discordapp.com/attachments/1045884026650636409/1168292371256070224/portfolioproject.png?ex=65513c0f&is=653ec70f&hm=bd57b56e3c44681fd5243c6c1475f8306b214f43ca01daa14ec8075eae1ecfd4&",
+            "githubUrl": "https://github.com/julliepx/portfolio",
+            "previewUrl": "https://jullie.dev"
+        },
+        {
+            "id": 2,
+            "title": "Tebex",
+            "subtitle": "Webstore",
+            "description": "Tebex is an e-commerce platform specializing in providing payment and store management solutions for gaming communities. In the project, I was responsible for designing and implementing an attractive and intuitive user interface for the Tebex store. I used technologies such as React, HTML, CSS and Typescript to create a responsive and friendly design for mobile and desktop devices. I worked together with the other designer using Figma so that the store's visual identity was consistent with the brand and the user experience was pleasant and engaging. I implemented features like easy navigation, advanced search, product filters and a functional shopping cart. Throughout the project, I maintained a constant focus on optimizing performance and ensuring the store was fast and responsive. I performed rigorous testing to ensure compatibility with different browsers and devices. In the end, I delivered a high-quality frontend project for the Brunx store, providing users with a pleasant and intuitive shopping experience. I am proud to have contributed to the success of the project and to have helped boost the store's sales and growth.",
+            "imageUrl": "https://cdn.discordapp.com/attachments/1045884026650636409/1167653503154532412/tebexproject.png?ex=654ee911&is=653c7411&hm=09498d3d80de0f18eb997042d31f802f6ae5cdceab375b25c7741ba63ebaaeda&",
+            "githubUrl": "",
+            "previewUrl": "https://www.brunxmods.com/"
+        },
+        {
+            "id": 3,
+            "title": "Alpha",
+            "subtitle": "Birdz",
+            "description": "Alphabirdz is an innovative webapp designed for birding enthusiasts to record and share their bird sightings in an easy and intuitive way. With a user-friendly interface and powerful features, Alphabirdz offers a complete experience for nature lovers. When accessing Alphabirdz, users can create a personalized account and start recording their bird sightings. The webapp offers a wide range of fields to capture detailed information such as the species of bird, date and location of the sighting, as well as allowing users to add notes and photos to enrich their observations. In short, Alphabirdz is a complete and engaging webapp for recording bird sightings, offering an intuitive platform for birding enthusiasts to share their experiences, learn from each other and connect in a nature-loving community.",
+            "imageUrl": "https://cdn.discordapp.com/attachments/1045884026650636409/1167660154611843094/alphabirdzproject.png?ex=654eef42&is=653c7a42&hm=b60375aa64abd2354ea4b6922e07b68795ed662f5abddcfbb4c953de00ecdd0a&",
+            "githubUrl": "https://github.com/julliepx/alphabirdz-angular",
+            "previewUrl": ""
+        },
+        {
+            "id": 4,
+            "title": "Wise",
+            "subtitle": "Robot",
+            "description": "I present our Discord BOT developed especially to assist administrators and moderators in managing a Roleplay server on FiveM. With a wide range of features and commands, the BOT automates essential tasks to ensure a safe and organized environment. Administrators and moderators can use specific commands to perform actions such as: Set Cars: With the appropriate command, it is possible to set specific cars for players or groups, allowing unique customization for each player on the server. Manage VIPs: BOT allows administrators and moderators to assign VIP privileges to players, granting exclusive benefits and special recognition within the server. Ban and Unban: With simple commands, it is possible to ban players who violate the server rules, ensuring a safe environment free from inappropriate behavior. Furthermore, the BOT also allows you to unban players if necessary. Automate Tasks: The BOT can be programmed to perform automated tasks such as clearing chat, sending welcome messages to new players, managing channel permissions, and more. This saves administrators and moderators time and effort, allowing them to focus on other important activities.",
+            "imageUrl": "https://cdn.discordapp.com/attachments/1045884026650636409/1168405213451931781/wiseevoproject.png?ex=6551a526&is=653f3026&hm=3965ea7adb2dda3424ec38f8c3c4b65df7ed6ad59d7261f807ab29f7f5801fc1&",
+            "githubUrl": "https://github.com/julliepx/wiseevobot",
+            "previewUrl": ""
+        }
+    ],
+    "pt": [
         {
             "id": 1,
             "title": "Meu",

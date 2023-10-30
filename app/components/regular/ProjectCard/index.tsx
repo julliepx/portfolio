@@ -1,10 +1,10 @@
 "use client"
 import './styles.scss'
-import { useDeviceContext } from '../../../context/store'
+import { useDeviceContext } from '../../../context/DeviceContext'
 import ArrowIcon from "../../icons/ArrowIcon"
-import repositorysJson from '../../../../public/configs/repositorys.json'
 import { isMobile } from 'react-device-detect'
 import { useState } from 'react'
+import { useLanguageContext } from '@/app/context/LanguageContext'
 
 type Repository = {
     id: number
@@ -22,15 +22,16 @@ type Props = {
 
 const ProjectCard = ({repository} : Props) => {
     const { isMobile } = useDeviceContext();
-    const [currentRepository, setCurrentRepository] = useState(repositorysJson.repositorys[0]);
+    const { repositorys } = useLanguageContext();
+    const [currentRepository, setCurrentRepository] = useState(repositorys[0]);
     
     const updateCurrentRepository = () => {
-        if(currentRepository.id == repositorysJson.repositorys.length) {
-            setCurrentRepository(repositorysJson.repositorys[0]);
+        if(currentRepository.id == repositorys.length) {
+            setCurrentRepository(repositorys[0]);
             return;
         }
 
-        const nextRepository : any = repositorysJson.repositorys.find((repo: Repository) => repo.id == currentRepository.id + 1);
+        const nextRepository : any = repositorys.find((repo: Repository) => repo.id == currentRepository.id + 1);
         setCurrentRepository(nextRepository);
     }
 

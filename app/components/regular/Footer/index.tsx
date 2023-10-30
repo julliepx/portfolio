@@ -1,3 +1,5 @@
+'use client';
+import { useLanguageContext } from '@/app/context/LanguageContext'
 import GithubIcon from '../../icons/GithubIcon'
 import LinkedinIcon from '../../icons/LinkedinIcon'
 import MailIcon from '../../icons/MailIcon'
@@ -5,6 +7,8 @@ import ResumeIcon from '../../icons/ResumeIcon'
 import './styles.scss'
 
 const Footer = () => {
+    const { texts } = useLanguageContext();
+
     return (
         <footer className='footer-container' id='contacts'>
             <div className='contacts-list'>
@@ -33,7 +37,7 @@ const Footer = () => {
                     <div className='contact'>
                         <div className='contact-cover'></div>
                         <div className='contact-icon'><ResumeIcon /></div>
-                        <span className='contact-name'>CV: Breve</span>
+                        <span className='contact-name'>CV: Soon</span>
                     </div>
                 </a>
                 <a href="mailto:jlpaixaof@gmail.com">
@@ -45,8 +49,8 @@ const Footer = () => {
                 </a>
             </div>
             <div className='copyrights'>
-                <h4 className='copyrights-title'>© 2023, Jullie Paixão. Todos os direitos reservados.</h4>
-                <span className='copyrights-subtitle'>Desenvolvido por <strong><a href="https://discord.gg/FZJ2ubWSa2">+Dev</a></strong></span>
+                <h4 className='copyrights-title'>{texts.footer.copyrightTitle}</h4>
+                <span className='copyrights-subtitle'>{texts.footer.copyrightSubtitle} <strong><a href="https://discord.gg/FZJ2ubWSa2">{texts.footer.copyrightStrong}</a></strong></span>
             </div>
         </footer>
     )

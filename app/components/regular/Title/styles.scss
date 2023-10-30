@@ -5,16 +5,17 @@
     width: 100%;
     flex-direction: column-reverse;
     text-transform: uppercase;
+    user-select: none;
 
     .title {
-        font-size: 42px;
+        font-size: 30px;
         font-weight: 800;
-        line-height: 40px;
+        line-height: 30px;
         color: var(--primary-pink);
     }
 
     .subtitle {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 200;
         color: var(--secondary-color-theme);
     }

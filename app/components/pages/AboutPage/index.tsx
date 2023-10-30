@@ -2,8 +2,11 @@ import { useInView } from 'react-intersection-observer'
 import Card from '../../regular/Card'
 import Title from '../../regular/Title'
 import './styles.scss'
+import { useLanguageContext } from '@/app/context/LanguageContext'
 
 const AboutPage = () => {
+    const { texts } = useLanguageContext();
+
     const { ref, inView } = useInView({
         threshold: 0,
         triggerOnce: true
@@ -11,9 +14,9 @@ const AboutPage = () => {
       
   return (
     <section ref={ref} className={`about-container ${inView && 'slideInRTL'}`} id='about'>
-        <Title title='Who is Jullie?' subtitle='About' screenPosition='right' />
+        <Title title={texts.about.title} subtitle={texts.about.subtitle} screenPosition='right' />
         <Card width='100%' height='fit-content' screenPosition='left'>
-          <p className='text'>SOU UMA ENTUSIASTA DA ENGENHARIA DE SOFTWARE COM UMA PAIXÃO ESPECIAL POR QUALIDADE. COM UMA SÓLIDA FORMAÇÃO EM DESENVOLVIMENTO DE SOFTWARE, ADQUIRI EXPERIÊNCIA TRABALHANDO COM DIVERSAS TECNOLOGIAS, INCLUINDO JAVASCRIPT, TYPESCRIPT, REACT, ANGULAR, JAVA E SPRING FRAMEWORK. ESSA EXPERIÊNCIA ME PERMITIU TER UMA VISÃO ABRANGENTE E INTEGRADA DOS PROJETOS EM QUE ESTOU ENVOLVIDA, DESDE O DESIGN ATÉ A ENTREGA FINAL.</p>
+          <p className='text'>{texts.about.bio}</p>
         </Card>
       </section>
   )

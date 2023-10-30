@@ -6,11 +6,14 @@ import HomeIcon from '../../icons/HomeIcon';
 import AboutIcon from '../../icons/AboutIcon';
 import ProjectsIcon from '../../icons/ProjectsIcon';
 import AtIcon from '../../icons/AtIcon';
-import { useDeviceContext } from '../../../context/store';
+import { useDeviceContext } from '../../../context/DeviceContext';
 import BulbIcon from '../../icons/BulbIcon';
+import GlobeIcon from '../../icons/GlobeIcon';
+import { useLanguageContext } from '@/app/context/LanguageContext';
 
 const Header = () => {
     const { isMobile } = useDeviceContext();
+    const { texts, language, setLanguage } = useLanguageContext();
 
     const handleScroll = (e: any) => {
         e.preventDefault();
@@ -27,6 +30,14 @@ const Header = () => {
         });
     }
 
+    const changeLanguage = () => {
+        if(language == 'en') {
+            setLanguage('pt')
+        } else {
+            setLanguage('en')
+        }
+    }
+
     return (
         <>
             <header className={`header-container ${isMobile && 'slideUp'}`}>
@@ -36,45 +47,55 @@ const Header = () => {
                             <li className='item'>
                                 <div className='cover'></div>
                                 <div className='icon-container'><HomeIcon /></div>
-                                <span className='name'>Home</span>
+                                <span className='name'>{texts.header.home}</span>
                             </li>
                         </Link>
                         <Link href='#about' onClick={handleScroll}>
                             <li className='item'>
                                 <div className='cover'></div>
                                 <div className='icon-container'><AboutIcon /></div>
-                                <span className='name'>About</span>
+                                <span className='name'>{texts.header.about}</span>
                             </li>
                         </Link>
                         <Link href='#projects' onClick={handleScroll}>
                             <li className='item'>
                                 <div className='cover'></div>
                                 <div className='icon-container'><ProjectsIcon /></div>
-                                <span className='name'>Projects</span>
+                                <span className='name'>{texts.header.projects}</span>
                             </li>
                         </Link>
                         <Link href='#contacts' onClick={handleScroll}>
                             <li className='item'>
                                 <div className='cover'></div>
                                 <div className='icon-container'><AtIcon /></div>
-                                <span className='name'>Contact</span>
+                                <span className='name'>{texts.header.contact}</span>
                             </li>
                         </Link>
                     </ul>
                 </nav>
-                {!isMobile && <div
+                {!isMobile && <div className='switch-container'>
+                <div
                     onClick={() => {
                         const html = document.querySelector('html');
                         html?.classList.toggle('dark-mode');
                     }}
-                    className='switch-mode'><BulbIcon /></div>}
+                    className='switch-button'><BulbIcon /></div>
+                <div
+                    onClick={changeLanguage}
+                    className='switch-button'><GlobeIcon /></div>
+            </div>}
             </header>
-            {isMobile && <div
-                onClick={() => {
-                    const html = document.querySelector('html');
-                    html?.classList.toggle('dark-mode');
-                }}
-                className='switch-mode'><BulbIcon /></div>}
+            {isMobile && <div className='switch-container'>
+                <div
+                    onClick={() => {
+                        const html = document.querySelector('html');
+                        html?.classList.toggle('dark-mode');
+                    }}
+                    className='switch-button'><BulbIcon /></div>
+                <div
+                    onClick={changeLanguage}
+                    className='switch-button'><GlobeIcon /></div>
+            </div>}
         </>
     )
 }
