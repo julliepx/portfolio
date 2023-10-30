@@ -1,36 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Fullstack Developer Portfolio
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Como Fullstack Developer, tenho o prazer de apresentar meu portfólio, que reflete minha experiência e habilidades em desenvolvimento web. Com uma paixão pela criação de soluções inovadoras e funcionais, meu portfólio demonstra meu conhecimento tanto no desenvolvimento frontend quanto no backend. No frontend crio interfaces de usuário atraentes e responsivas, garantindo uma experiência de usuário excepcional. Meu foco está em criar designs intuitivos, acessíveis e visualmente atraentes. No backend, desenvolvo APIs escaláveis, garantindo que os aplicativos sejam rápidos e confiáveis. Meu portfólio é um projeto de ponta a ponta que demonstra minhas habilidades em desenvolvimento web e meu compromisso em criar soluções de alta qualidade. Estou orgulhosa de ter criado um portfólio que reflete minha paixão pelo desenvolvimento web e minha dedicação em criar soluções inovadoras e funcionais.
