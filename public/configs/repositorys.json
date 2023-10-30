@@ -1,0 +1,31 @@
+{
+    "repositorys": [
+        {
+            "id": 1,
+            "title": "Meu",
+            "subtitle": "Portfolio",
+            "description": "Como Fullstack Developer, tenho o prazer de apresentar meu portfólio, que reflete minha experiência e habilidades em desenvolvimento web. Com uma paixão pela criação de soluções inovadoras e funcionais, meu portfólio demonstra meu conhecimento tanto no desenvolvimento frontend quanto no backend. No frontend crio interfaces de usuário atraentes e responsivas, garantindo uma experiência de usuário excepcional. Meu foco está em criar designs intuitivos, acessíveis e visualmente atraentes. No backend, desenvolvo APIs escaláveis, garantindo que os aplicativos sejam rápidos e confiáveis. Meu portfólio é um projeto de ponta a ponta que demonstra minhas habilidades em desenvolvimento web e meu compromisso em criar soluções de alta qualidade. Estou orgulhosa de ter criado um portfólio que reflete minha paixão pelo desenvolvimento web e minha dedicação em criar soluções inovadoras e funcionais.",
+            "imageUrl": "https://cdn.discordapp.com/attachments/1045884026650636409/1168292371256070224/portfolioproject.png?ex=65513c0f&is=653ec70f&hm=bd57b56e3c44681fd5243c6c1475f8306b214f43ca01daa14ec8075eae1ecfd4&",
+            "githubUrl": "https://github.com/julliepx/portfolio",
+            "previewUrl": "https://jullie.dev"
+        },
+        {
+            "id": 2,
+            "title": "Tebex",
+            "subtitle": "Webstore",
+            "description": "A Tebex é uma plataforma de comércio eletrônico especializada em fornecer soluções de pagamento e gerenciamento de lojas para comunidades de jogos. No projeto, fui responsável por projetar e implementar uma interface de usuário atraente e intuitiva para a loja da Tebex. Utilizei tecnologias como React, HTML, CSS e Typescript para criar um design responsivo e amigável para dispositivos móveis e desktop. Trabalhei juntamente com o outro designer utilizando o Figma para que a identidade visual da loja fosse consistente com a marca e que a experiência do usuário fosse agradável e envolvente. Implementei recursos como navegação fácil, pesquisa avançada, filtros de produtos e um carrinho de compras funcional. Durante o projeto, mantive um foco constante na otimização de desempenho e na garantia de que a loja fosse rápida e responsiva. Realizei testes rigorosos para garantir a compatibilidade com diferentes navegadores e dispositivos. No final, entreguei um projeto de frontend de alta qualidade para a loja do Brunx, proporcionando aos usuários uma experiência de compra agradável e intuitiva. Estou orgulhosa de ter contribuído para o sucesso do projeto e de ter ajudado a impulsionar as vendas e o crescimento da loja.",
+            "imageUrl": "https://cdn.discordapp.com/attachments/1045884026650636409/1167653503154532412/tebexproject.png?ex=654ee911&is=653c7411&hm=09498d3d80de0f18eb997042d31f802f6ae5cdceab375b25c7741ba63ebaaeda&",
+            "githubUrl": "",
+            "previewUrl": "https://www.brunxmods.com/"
+        },
+        {
+            "id": 3,
+            "title": "Alpha",
+            "subtitle": "Birdz",
+            "description": "O Alphabirdz é um webapp inovador projetado para entusiastas de observação de pássaros registrarem e compartilharem seus avistamentos de aves de forma fácil e intuitiva. Com uma interface amigável e recursos poderosos, o Alphabirdz oferece uma experiência completa para os amantes da natureza. Ao acessar o Alphabirdz, os usuários podem criar uma conta personalizada e começar a registrar seus avistamentos de pássaros. O webapp oferece uma ampla variedade de campos para capturar informações detalhadas, como a espécie de pássaro, a data e a localização do avistamento, além de permitir que os usuários adicionem notas e fotos para enriquecer suas observações. Em resumo, o Alphabirdz é um webapp completo e envolvente para registro de avistamentos de pássaros, oferecendo uma plataforma intuitiva para os entusiastas da observação de aves compartilharem suas experiências, aprenderem uns com os outros e se conectarem em uma comunidade apaixonada pela natureza.",
+            "imageUrl": "https://cdn.discordapp.com/attachments/1045884026650636409/1167660154611843094/alphabirdzproject.png?ex=654eef42&is=653c7a42&hm=b60375aa64abd2354ea4b6922e07b68795ed662f5abddcfbb4c953de00ecdd0a&",
+            "githubUrl": "https://github.com/julliepx/alphabirdz-angular",
+            "previewUrl": ""
+        }
+    ]
+}
