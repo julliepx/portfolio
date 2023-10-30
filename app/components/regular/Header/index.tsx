@@ -7,6 +7,7 @@ import AboutIcon from '../../icons/AboutIcon';
 import ProjectsIcon from '../../icons/ProjectsIcon';
 import AtIcon from '../../icons/AtIcon';
 import { useDeviceContext } from '../../../context/store';
+import BulbIcon from '../../icons/BulbIcon';
 
 const Header = () => {
     const { isMobile } = useDeviceContext();
@@ -60,6 +61,12 @@ const Header = () => {
                     </Link>
                 </ul>
             </nav>
+            <div 
+            onClick={() => {
+                const html = document.querySelector('html');
+                html?.classList.toggle('dark-mode');
+            }}
+            className='switch-mode'><BulbIcon /></div>
         </header>
     )
 }

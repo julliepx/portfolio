@@ -130,6 +130,17 @@
                 }
             }
         }
+
+        .switch-mode {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            width: 32px;
+            height: 32px;
+            background-color: var(--primary-pink);
+            cursor: pointer;
+        }
     }
 }
 
@@ -214,6 +225,17 @@
                     }
                 }
             }
+        }
+
+        .switch-mode {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            width: 32px;
+            height: 32px;
+            background-color: var(--primary-pink);
+            cursor: pointer;
         }
     }
 }
