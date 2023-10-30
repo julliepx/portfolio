@@ -63,7 +63,7 @@
         .projects-list {
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-end;
             flex-wrap: wrap;
             gap: 64px;
         }
@@ -125,7 +125,7 @@
         .projects-list {
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-end;
             flex-wrap: wrap;
             gap: 64px;
         }
