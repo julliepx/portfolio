@@ -56,11 +56,15 @@
     }
 
     .projects-container {
+        display: flex;
         gap: 64px;
         margin-bottom: 128px;
 
         .projects-list {
             display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
             gap: 64px;
         }
     }
@@ -120,6 +124,9 @@
 
         .projects-list {
             display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
             gap: 64px;
         }
     }

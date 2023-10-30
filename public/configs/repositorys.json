@@ -26,6 +26,15 @@
             "imageUrl": "https://cdn.discordapp.com/attachments/1045884026650636409/1167660154611843094/alphabirdzproject.png?ex=654eef42&is=653c7a42&hm=b60375aa64abd2354ea4b6922e07b68795ed662f5abddcfbb4c953de00ecdd0a&",
             "githubUrl": "https://github.com/julliepx/alphabirdz-angular",
             "previewUrl": ""
+        },
+        {
+            "id": 3,
+            "title": "Alpha",
+            "subtitle": "Birdz",
+            "description": "O Alphabirdz é um webapp inovador projetado para entusiastas de observação de pássaros registrarem e compartilharem seus avistamentos de aves de forma fácil e intuitiva. Com uma interface amigável e recursos poderosos, o Alphabirdz oferece uma experiência completa para os amantes da natureza. Ao acessar o Alphabirdz, os usuários podem criar uma conta personalizada e começar a registrar seus avistamentos de pássaros. O webapp oferece uma ampla variedade de campos para capturar informações detalhadas, como a espécie de pássaro, a data e a localização do avistamento, além de permitir que os usuários adicionem notas e fotos para enriquecer suas observações. Em resumo, o Alphabirdz é um webapp completo e envolvente para registro de avistamentos de pássaros, oferecendo uma plataforma intuitiva para os entusiastas da observação de aves compartilharem suas experiências, aprenderem uns com os outros e se conectarem em uma comunidade apaixonada pela natureza.",
+            "imageUrl": "https://cdn.discordapp.com/attachments/1045884026650636409/1167660154611843094/alphabirdzproject.png?ex=654eef42&is=653c7a42&hm=b60375aa64abd2354ea4b6922e07b68795ed662f5abddcfbb4c953de00ecdd0a&",
+            "githubUrl": "https://github.com/julliepx/alphabirdz-angular",
+            "previewUrl": ""
         }
     ]
 }
