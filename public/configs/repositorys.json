@@ -10,6 +10,15 @@
             "previewUrl": "https://jullie.dev"
         },
         {
+            "id": 5,
+            "title": "Character",
+            "subtitle": "Visual",
+            "description": "Introducing our FiveM feature, a complete module that offers an immersive character creation and customization experience for your server. With features like Barber Shop, Clothing Shop, Tattoo Shop, and Nail Shop, players have the freedom to customize their characters to their preferences. Character Creation: With this feature, players can create their characters from scratch, choosing characteristics such as gender, facial appearance, eye color, skin color, and more. They can explore a wide variety of options to create a unique and authentic character. Barber Shop: Our feature includes a virtual barber shop where players can change their hairstyle, hair color, beard and mustache. They can try out different haircuts and beard styles to reflect their character's personality. Clothing Store: With the clothing store, players have access to a wide selection of clothing, shoes, and accessories to customize their character's look. They can choose from different styles, colors and brands to create a unique and stylish look. Tattoo Shop: Our feature also offers a tattoo shop, where players can choose from a variety of designs and styles to tattoo their characters. They can customize the location, size and color of tattoos to express your individuality. Manicure: With the manicure feature, players can customize their character's nails by choosing from a variety of nail colors, designs, and styles. They can add a finishing touch to your character's look with elegant and stylish nails. This feature of FiveM provides a complete customization experience for players, allowing them to create unique and expressive characters. With the combination of Character Creation, Barber Shop, Clothing Shop, Tattoo Shop, and Nail Shop, your server will offer a more immersive and personalized roleplaying experience for players.",
+            "imageUrl": "https://cdn.discordapp.com/attachments/1045884026650636409/1168459556981067836/charactervisualproject.png?ex=6551d7c3&is=653f62c3&hm=2f333f7e397c857dd94c335a8d497fd8778fd9ed7bf65094a7cb4abfb0ddf645&",
+            "githubUrl": "",
+            "previewUrl": "https://www.youtube.com/watch?v=8_Kd0mV1KNE"
+        },
+        {
             "id": 2,
             "title": "Tebex",
             "subtitle": "Webstore",
@@ -46,6 +55,15 @@
             "imageUrl": "https://cdn.discordapp.com/attachments/1045884026650636409/1168292371256070224/portfolioproject.png?ex=65513c0f&is=653ec70f&hm=bd57b56e3c44681fd5243c6c1475f8306b214f43ca01daa14ec8075eae1ecfd4&",
             "githubUrl": "https://github.com/julliepx/portfolio",
             "previewUrl": "https://jullie.dev"
+        },
+        {
+            "id": 5,
+            "title": "Character",
+            "subtitle": "Visual",
+            "description": "Apresentamos nossa resource de FiveM, um módulo completo que oferece uma experiência imersiva de criação de personagem e personalização para o seu servidor. Com recursos como Barbearia, Loja de Roupas, Loja de Tatuagens e Manicure, os jogadores têm a liberdade de personalizar seus personagens de acordo com suas preferências. Criação de Personagem: Com esse recurso, os jogadores podem criar seus personagens do zero, escolhendo características como gênero, aparência facial, cor dos olhos, cor da pele e muito mais. Eles podem explorar uma ampla variedade de opções para criar um personagem único e autêntico. Barbearia: Nossa resource inclui uma barbearia virtual, onde os jogadores podem alterar o estilo de cabelo, cor do cabelo, barba e bigode. Eles podem experimentar diferentes cortes de cabelo e estilos de barba para refletir a personalidade do seu personagem. Loja de Roupas: Com a loja de roupas, os jogadores têm acesso a uma ampla seleção de roupas, sapatos e acessórios para personalizar o visual do seu personagem. Eles podem escolher entre diferentes estilos, cores e marcas para criar um visual único e estiloso. Loja de Tatuagens: Nossa resource também oferece uma loja de tatuagens, onde os jogadores podem escolher entre uma variedade de desenhos e estilos para tatuar seus personagens. Eles podem personalizar a localização, tamanho e cor das tatuagens para expressar sua individualidade. Manicure: Com o recurso de manicure, os jogadores podem personalizar as unhas dos seus personagens, escolhendo entre uma variedade de cores, desenhos e estilos de unhas. Eles podem adicionar um toque final ao visual do seu personagem com unhas elegantes e estilosas. Essa resource de FiveM proporciona uma experiência completa de personalização para os jogadores, permitindo que eles criem personagens únicos e expressivos. Com a combinação da Criação de Personagem, Barbearia, Loja de Roupas, Loja de Tatuagens e Manicure, seu servidor oferecerá uma experiência de roleplay mais imersiva e personalizada para os jogadores.",
+            "imageUrl": "https://cdn.discordapp.com/attachments/1045884026650636409/1168459556981067836/charactervisualproject.png?ex=6551d7c3&is=653f62c3&hm=2f333f7e397c857dd94c335a8d497fd8778fd9ed7bf65094a7cb4abfb0ddf645&",
+            "githubUrl": "",
+            "previewUrl": "https://www.youtube.com/watch?v=8_Kd0mV1KNE"
         },
         {
             "id": 2,
