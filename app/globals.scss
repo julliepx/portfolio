@@ -1,4 +1,4 @@
-:root {
+.dark-mode:root {
   --primary-pink: #FF0964;
   --secondary-color: #FFFFFF;
   --background-primary: #0F0F0F;
@@ -6,7 +6,7 @@
   --plusdev-red: #920000;
 }
 
-.dark-mode:root {
+:root {
   --primary-pink: #FF0964;
   --secondary-color: #0F0F0F;
   --background-primary: #E8E8E8;
