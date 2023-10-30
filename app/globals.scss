@@ -85,3 +85,55 @@ body {
       padding: 128px 256px 256px 256px;
   }
 }
+
+@keyframes slideDown {
+  0% {
+      transform: translateY(-100%);
+  }
+
+  100% {
+      transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+      transform: translateY(100%);
+  }
+
+  100% {
+      transform: translateY(0);
+  }
+}
+
+@keyframes slideInRTL {
+  0% {
+      transform: translateX(200%);
+  }
+
+  100% {
+      transform: translateX(0);
+  }
+}
+
+@keyframes slideInLTR {
+  0% {
+      transform: translateX(-200%);
+  }
+
+  100% {
+      transform: translateX(0);
+  }
+}
+
+.slideInLTR {
+  animation: slideInLTR 1s ease-in-out;
+}
+
+.slideInRTL {
+  animation: slideInRTL 1s ease-in-out;
+}
+
+.slideUp {
+  animation: slideUp 1s ease-in-out;
+}

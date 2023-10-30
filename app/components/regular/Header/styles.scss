@@ -48,6 +48,21 @@
     }
 }
 
+.switch-mode {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 32px;
+    height: 32px;
+    background-color: var(--primary-pink);
+    cursor: pointer;
+    z-index: 2;
+}
+
 @include desktop {
     .header-container {
         position: fixed;
@@ -61,6 +76,8 @@
         padding: 0 128px;
         background-color: var(--background-primary);
         z-index: 2;
+
+        animation: slideDown 1s ease-in-out;
 
         .navigation {
             width: 100%;
@@ -132,6 +149,7 @@
         }
 
         .switch-mode {
+            position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -140,6 +158,7 @@
             height: 32px;
             background-color: var(--primary-pink);
             cursor: pointer;
+            z-index: 2;
         }
     }
 }
@@ -157,6 +176,8 @@
         padding: 0 256px;
         background-color: var(--background-primary);
         z-index: 2;
+
+        animation: slideDown 1s ease-in-out;
 
         .navigation {
             width: 100%;
@@ -228,6 +249,7 @@
         }
 
         .switch-mode {
+            position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -236,6 +258,7 @@
             height: 32px;
             background-color: var(--primary-pink);
             cursor: pointer;
+            z-index: 2;
         }
     }
 }

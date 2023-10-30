@@ -17,7 +17,7 @@ const Header = () => {
 
         const href = e.currentTarget.getAttribute('href');
         const targetId = href.split('#')[1];
-        const element : any = document.getElementById(targetId);
+        const element: any = document.getElementById(targetId);
 
         const position = isMobile ? element?.offsetTop : element?.offsetTop - document.body.clientHeight * 0.2;
 
@@ -28,46 +28,54 @@ const Header = () => {
     }
 
     return (
-        <header className='header-container'>
-            <nav className='navigation'>
-                <ul className='list'>
-                    <Link href='#home' onClick={handleScroll}>
-                        <li className='item'>
-                            <div className='cover'></div>
-                            <div className='icon-container'><HomeIcon /></div>
-                            <span className='name'>Home</span>
-                        </li>
-                    </Link>
-                    <Link href='#about' onClick={handleScroll}>
-                        <li className='item'>
-                        <div className='cover'></div>
-                            <div className='icon-container'><AboutIcon /></div>
-                            <span className='name'>About</span>
-                        </li>
-                    </Link>
-                    <Link href='#projects' onClick={handleScroll}>
-                        <li className='item'>
-                        <div className='cover'></div>
-                            <div className='icon-container'><ProjectsIcon /></div>
-                            <span className='name'>Projects</span>
-                        </li>
-                    </Link>
-                    <Link href='#contacts' onClick={handleScroll}>
-                        <li className='item'>
-                        <div className='cover'></div>
-                            <div className='icon-container'><AtIcon /></div>
-                            <span className='name'>Contact</span>
-                        </li>
-                    </Link>
-                </ul>
-            </nav>
-            <div 
-            onClick={() => {
-                const html = document.querySelector('html');
-                html?.classList.toggle('dark-mode');
-            }}
-            className='switch-mode'><BulbIcon /></div>
-        </header>
+        <>
+            <header className={`header-container ${isMobile && 'slideUp'}`}>
+                <nav className='navigation'>
+                    <ul className='list'>
+                        <Link href='#home' onClick={handleScroll}>
+                            <li className='item'>
+                                <div className='cover'></div>
+                                <div className='icon-container'><HomeIcon /></div>
+                                <span className='name'>Home</span>
+                            </li>
+                        </Link>
+                        <Link href='#about' onClick={handleScroll}>
+                            <li className='item'>
+                                <div className='cover'></div>
+                                <div className='icon-container'><AboutIcon /></div>
+                                <span className='name'>About</span>
+                            </li>
+                        </Link>
+                        <Link href='#projects' onClick={handleScroll}>
+                            <li className='item'>
+                                <div className='cover'></div>
+                                <div className='icon-container'><ProjectsIcon /></div>
+                                <span className='name'>Projects</span>
+                            </li>
+                        </Link>
+                        <Link href='#contacts' onClick={handleScroll}>
+                            <li className='item'>
+                                <div className='cover'></div>
+                                <div className='icon-container'><AtIcon /></div>
+                                <span className='name'>Contact</span>
+                            </li>
+                        </Link>
+                    </ul>
+                </nav>
+                {!isMobile && <div
+                    onClick={() => {
+                        const html = document.querySelector('html');
+                        html?.classList.toggle('dark-mode');
+                    }}
+                    className='switch-mode'><BulbIcon /></div>}
+            </header>
+            {isMobile && <div
+                onClick={() => {
+                    const html = document.querySelector('html');
+                    html?.classList.toggle('dark-mode');
+                }}
+                className='switch-mode'><BulbIcon /></div>}
+        </>
     )
 }
 
