@@ -9,6 +9,26 @@
     gap: 32px;
 }
 
+@include laptop {
+    .projects-container {
+        display: flex;
+        height: fit-content;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 128px;
+        margin-top: 128px;
+        gap: 64px;
+        
+        .projects-list {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            gap: 64px;
+        }
+    }
+}
+
 @include desktop {
     .projects-container {
         display: flex;

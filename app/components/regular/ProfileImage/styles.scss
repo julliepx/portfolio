@@ -40,6 +40,32 @@
     }
 }
 
+@include laptop {
+    .image-container {
+        width: 350px;
+        height: 350px;
+        grid-area: image;
+    
+        .background {
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            margin: 15px 0 0 15px;
+            border-radius: 67% 33% 37% 63% / 65% 46% 54% 35% ;
+            background-color: var(--primary-pink);
+            z-index: -1;
+        }
+    
+        .image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 67% 33% 37% 63% / 65% 46% 54% 35% ;
+        }
+    }
+}
+
 @include desktop {
     .image-container {
         width: 550px;

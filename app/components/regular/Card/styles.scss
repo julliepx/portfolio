@@ -24,6 +24,18 @@
     }
 }
 
+@include laptop {
+    .card-container {
+        display: flex;
+        max-width: 900px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        position: relative;
+        padding: 64px;
+    }
+}
+
 @include desktop {
     .card-container {
         display: flex;

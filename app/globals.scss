@@ -57,13 +57,13 @@ body {
 }
 
 @mixin laptop {
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 992px) and (max-width: 1366px) {
       @content;
   }
 }
 
 @mixin desktop {
-  @media (min-width: 1200px) and (max-width: 1920px) {
+  @media (min-width: 1367px) and (max-width: 1920px) {
       @content;
   }
 }
@@ -71,6 +71,12 @@ body {
 @mixin large-desktop {
   @media (min-width: 1921px) {
       @content;
+  }
+}
+
+@include laptop {
+  body {
+      padding: 128px;
   }
 }
 

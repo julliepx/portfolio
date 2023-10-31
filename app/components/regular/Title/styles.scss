@@ -21,6 +21,32 @@
     }
 }
 
+@include laptop {
+    .title-container {
+        display: flex;
+        width: 500px;
+        height: fit-content;
+        padding: 32px 0;
+        flex-direction: column-reverse;
+        text-transform: uppercase;
+    
+        .title {
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 90%;
+            color: var(--primary-pink);
+            grid-area: title;
+        }
+    
+        .subtitle {
+            margin-left: 4px;
+            font-size: 40px;
+            font-weight: 200;
+            color: var(--secondary-color-theme);
+        }
+    }
+}
+
 @include desktop {
     .title-container {
         display: flex;

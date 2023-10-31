@@ -95,6 +95,31 @@
     }
 }
 
+@include laptop {
+    .projects-container {
+        .project-image-container {
+            .title-container {
+                position: absolute;
+                width: 100px;
+                height: fit-content;
+                top: 64px;
+                right: 24px;
+                padding-left: 0px;
+                border-left: none;
+
+                .title {
+                    padding-left: 4px;
+                    border-left: 1px solid var(--primary-pink);
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    color: var(--font-secondary);
+                }
+            }
+        }
+    }
+}
+
 @include desktop {
     .projects-container {
         .project-image-container {
