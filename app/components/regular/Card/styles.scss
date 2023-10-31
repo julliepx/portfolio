@@ -24,6 +24,32 @@
     }
 }
 
+@include tablet {
+    .card-container {
+        display: flex;
+        max-width: 500px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        position: relative;
+        padding: 24px;
+    
+        .top-left-border {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    
+        .bottom-right-border {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
+        }
+    }
+}
+
 @include laptop {
     .card-container {
         display: flex;

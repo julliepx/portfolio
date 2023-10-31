@@ -26,6 +26,34 @@
     }
 }
 
+@include tablet {
+    .image-container {
+        position: relative;
+        width: 400px;
+        height: 400px;
+    
+        animation: slideInRTL 1s ease-in-out;
+    
+        .background {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            margin: 15px 0 0 15px;
+            border-radius: 67% 33% 37% 63% / 65% 46% 54% 35% ;
+            background-color: var(--primary-pink);
+            z-index: -1;
+        }
+    
+        .image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 67% 33% 37% 63% / 65% 46% 54% 35% ;
+        }
+    }
+}
+
 @include tall-mobile {
     .image-container {
         width: 300px;

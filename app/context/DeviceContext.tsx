@@ -14,7 +14,7 @@ export const DeviceContextProvider = ({children} : { children: React.ReactNode }
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
-        if(deviceWidth < 768) {
+        if(deviceWidth < 992) {
             setIsMobile(true);
             return;
         }

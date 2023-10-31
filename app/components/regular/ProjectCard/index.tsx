@@ -3,7 +3,7 @@ import './styles.scss'
 import { useDeviceContext } from '../../../context/DeviceContext'
 import ArrowIcon from "../../icons/ArrowIcon"
 import { isMobile } from 'react-device-detect'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useLanguageContext } from '@/app/context/LanguageContext'
 
 type Repository = {
@@ -31,7 +31,7 @@ const ProjectCard = ({repository} : Props) => {
             return;
         }
 
-        const nextRepository : any = repositorys.find((repo: Repository) => repo.id == currentRepository.id + 1);
+        const nextRepository : Repository = repositorys.find((repo: Repository) => repo.id == currentRepository.id + 1);
         setCurrentRepository(nextRepository);
     }
 

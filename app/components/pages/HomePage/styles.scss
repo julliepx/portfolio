@@ -27,6 +27,35 @@
     }
 }
 
+@include tablet {
+    .home-container {
+        display: flex;
+        height: fit-content;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 64px;
+        gap: 32px;
+    }
+    
+    .description-container {
+        width: 100%;
+        text-transform: uppercase;
+        text-align: end;
+    
+        animation: slideInLTR 1s ease-in-out;
+    
+        .description {
+            font-size: 24px;
+            font-weight: 300;
+    
+            .bold {
+                font-weight: 600;
+                color: var(--primary-pink);
+            }
+        }
+    }
+}
+
 @include tall-mobile {
     .home-container {
         gap: 64px;
