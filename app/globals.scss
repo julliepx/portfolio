@@ -18,6 +18,19 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--primary-pink);
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: var(--background-primary);
+  }
 }
 
 body {
@@ -34,101 +47,101 @@ body {
 
 @mixin mobile {
   @media (max-width: 480px) {
-      @content;
+    @content;
   }
 }
 
 @mixin tall-mobile {
   @media (max-width: 480px) and (min-height: 680px) {
-      @content;
+    @content;
   }
 }
 
 @mixin small-device {
   @media (min-width: 481px) and (max-width: 767px) {
-      @content;
+    @content;
   }
 }
 
 @mixin tablet {
   @media (min-width: 768px) and (max-width: 991px) {
-      @content;
+    @content;
   }
 }
 
 @mixin laptop {
   @media (min-width: 992px) and (max-width: 1366px) {
-      @content;
+    @content;
   }
 }
 
 @mixin desktop {
   @media (min-width: 1367px) and (max-width: 1920px) {
-      @content;
+    @content;
   }
 }
 
 @mixin large-desktop {
   @media (min-width: 1921px) {
-      @content;
+    @content;
   }
 }
 
 @include laptop {
   body {
-      padding: 128px;
+    padding: 128px;
   }
 }
 
 @include desktop {
   body {
-      padding: 128px;
+    padding: 128px;
   }
 }
 
 @include large-desktop {
   body {
-      padding: 128px 256px 256px 256px;
+    padding: 128px 256px 256px 256px;
   }
 }
 
 @keyframes slideDown {
   0% {
-      transform: translateY(-100%);
+    transform: translateY(-100%);
   }
 
   100% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
 @keyframes slideUp {
   0% {
-      transform: translateY(100%);
+    transform: translateY(100%);
   }
 
   100% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
 @keyframes slideInRTL {
   0% {
-      transform: translateX(200%);
+    transform: translateX(200%);
   }
 
   100% {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
 @keyframes slideInLTR {
   0% {
-      transform: translateX(-200%);
+    transform: translateX(-200%);
   }
 
   100% {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 }
 

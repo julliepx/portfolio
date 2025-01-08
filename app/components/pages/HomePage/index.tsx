@@ -15,13 +15,13 @@ const HomePage = () => {
           {language == "en" ? (
             <>
               I&apos;m 23 springs old, and i have <br />{" "}
-              <strong className="bold">+2 years</strong> of experience building{" "}
+              <strong className="bold">+5 years</strong> of experience building{" "}
               <br /> amazing <strong className="bold">user experiences</strong>
             </>
           ) : (
             <>
               Tenho 23 primaveras, e tenho <br />{" "}
-              <strong className="bold">+2 anos</strong> de experiência
+              <strong className="bold">+5 anos</strong> de experiência
               construindo <br /> incríveis{" "}
               <strong className="bold">experiências de usuário</strong>
             </>
