@@ -4,7 +4,11 @@
       "contact": "Contact",
       "projects": "Projects",
       "about": "About",
-      "home": "Home"
+      "home": "Home",
+      "themeTooltipToLight": "Change to Light Theme",
+      "themeTooltipToDark": "Change to Dark Theme",
+      "languageTooltipToPortuguese": "Switch language to Portuguese",
+      "languageTooltipToEnglish": "Switch language to English"
     },
     "home": {
       "title": "Fullstack Developer",
@@ -13,16 +17,15 @@
     "about": {
       "title": "Who is Jullie?",
       "subtitle": "About",
-      "bio": "I AM A SOFTWARE ENGINEER ENTHUSIAST WITH A SPECIAL PASSION FOR QUALITY. WITH A SOLID TRAINING IN SOFTWARE DEVELOPMENT, I HAVE ACQUIRED EXPERIENCE WORKING WITH VARIOUS TECHNOLOGIES, INCLUDING JAVASCRIPT, TYPESCRIPT, REACT, ANGULAR, JAVA AND SPRING FRAMEWORK. THIS EXPERIENCE ALLOWED ME TO HAVE A COMPREHENSIVE AND INTEGRATED VIEW OF THE PROJECTS I AM INVOLVED IN, FROM DESIGN TO FINAL DELIVERY."
+      "bio": "I am a Software Engineer passionate about technology, quality, and innovation. Currently, i work as a Fullstack Developer, contributing to the development of critical systems for the CNJ, directly impacting the efficiency of the Brazilian judiciary. With a background that includes Java, Spring, TypeScript, Angular, React, and Next.js, I have experience in building scalable, high-performance solutions. My technical approach is always aligned with best practices in clean code, architectural patterns, and performance optimization."
     },
     "projects": {
       "title": "Finished Projects",
       "subtitle": "Some"
     },
     "footer": {
-      "copyrightTitle": "© 2024, Jullie Paixão. All rights reserved.",
-      "copyrightSubtitle": "Powered by",
-      "copyrightStrong": "+Dev"
+      "resume": "Resume",
+      "copyrightTitle": "© 2025, Jullie Paixão. All rights reserved."
     }
   },
   "pt": {
@@ -30,7 +33,11 @@
       "contact": "Contato",
       "projects": "Projetos",
       "about": "Sobre",
-      "home": "Início"
+      "home": "Início",
+      "themeTooltipToLight": "Mudar para o Tema Claro",
+      "themeTooltipToDark": "Mudar para o Tema Escuro",
+      "languageTooltipToPortuguese": "Mudar a linguagem para Português",
+      "languageTooltipToEnglish": "Mudar a linguagem para Inglês"
     },
     "home": {
       "title": "Desenvolvedora Fullstack",
@@ -39,16 +46,15 @@
     "about": {
       "title": "Quem sou eu?",
       "subtitle": "Sobre",
-      "bio": "SOU UMA ENTUSIASTA DA ENGENHARIA DE SOFTWARE COM UMA PAIXÃO ESPECIAL POR QUALIDADE. COM UMA SÓLIDA FORMAÇÃO EM DESENVOLVIMENTO DE SOFTWARE, ADQUIRI EXPERIÊNCIA TRABALHANDO COM DIVERSAS TECNOLOGIAS, INCLUINDO JAVASCRIPT, TYPESCRIPT, REACT, ANGULAR, JAVA E SPRING FRAMEWORK. ESSA EXPERIÊNCIA ME PERMITIU TER UMA VISÃO ABRANGENTE E INTEGRADA DOS PROJETOS EM QUE ESTOU ENVOLVIDA, DESDE O DESIGN ATÉ A ENTREGA FINAL."
+      "bio": "Sou uma engenheira de software apaixonada por tecnologia, qualidade e inovação. Atualmente, atuo como Desenvolvedora Fullstack, contribuindo para o desenvolvimento de sistemas críticos para o CNJ, impactando diretamente a eficiência do judiciário brasileiro. Com uma trajetória que abrange Java, Spring, TypeScript, Angular, React e Next.js, tenho experiência na construção de soluções escaláveis e de alto desempenho. Minha abordagem técnica está sempre alinhada às melhores práticas de código limpo, padrões arquiteturais e otimização de desempenho."
     },
     "projects": {
       "title": "Projetos Finalizados",
       "subtitle": "Alguns"
     },
     "footer": {
-      "copyrightTitle": "© 2024, Jullie Paixão. Todos os direitos reservados.",
-      "copyrightSubtitle": "Desenvolvido por",
-      "copyrightStrong": "+Dev"
+      "resume": "Currículo",
+      "copyrightTitle": "© 2025, Jullie Paixão. Todos os direitos reservados."
     }
   }
 }
